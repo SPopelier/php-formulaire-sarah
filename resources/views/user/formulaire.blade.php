@@ -9,7 +9,7 @@
             <form class="" action="/user" method="post">
                 {{ csrf_field() }}
                 <div class="form-group">
-                    <label for="firstname">firstname</label>
+                    <label for="firstname">Firstname</label>
                     <input type="text" class="form-control" name="firstname" id="firstname" placeholder="firstname">
                 </div>
                 <div class="form-group">
@@ -22,7 +22,7 @@
                 <div class="form-group">
                     <div class="checkbox">
                       <label>
-                        <input type="checkbox" name="newsletter" value="yes"> suscribe to newsletter
+                        <input type="checkbox" name="newsletter" value="yes"> Subscribe to newsletter
                       </label>
                     </div>
                 </div>
