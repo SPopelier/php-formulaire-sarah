@@ -32,9 +32,15 @@ class NewsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        //
+    public function store(Request $request)  
+      {
+        $title = $request->input('title');
+    $content = $request->input('content');
+
+    return response()->view('news.confirmation', [
+        'title' => $title,
+        'content' => $content,
+    ]);
     }
 
     /**
