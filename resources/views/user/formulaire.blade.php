@@ -12,6 +12,10 @@
                     <label for="firstname">Firstname</label>
                     <input type="text" class="form-control" name="firstname" id="firstname" placeholder="firstname">
                 </div>
+                                <div class="form-group">
+                    <label for="lastname">Lastname</label>
+                    <input type="text" class="form-control" name="lastname" id="lastname" placeholder="lastname">
+                </div>
                 <div class="form-group">
                     <label for="gender">Gender</label>
                     <select name="gender" id="gender" class="form-control">
